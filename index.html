@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HTML Tags Cheat Sheet</title>
+        <title>MY HTML Cheat Sheet</title>
     </head>
     <body>
-        <h1 id="top-of-page">HTML Tags Cheat Sheet</h1>
+        <h1 id="top-of-page">MY HTML Cheat Sheet</h1>
 
         <h2>Table of Contents</h2>
         <ol>
@@ -52,6 +52,16 @@
             <li>
                 <a href="#text-emphasis">
                     Text Emphasis
+                </a>
+            </li>
+            <li>
+                <a href="#images">
+                    Images
+                </a>
+            </li>
+            <li>
+                <a href="#tables">
+                    Tables
                 </a>
             </li>
             <li>
@@ -120,10 +130,48 @@
             </a>
         </p>
 
-        <h2>Images</h2>
+        <h2 id="images">Images</h2>
         <p>
             Look a picture of a lemur:<br>
             <img src="http://wanderlord.com/wp-content/uploads/2015/11/Lemur-5-150x150.jpg">
+        </p>
+
+        <h2 id="tables">Tables</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Insect</th>
+                    <th scope="col">Family</th>
+                    <th scope="col">Fact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Ladybug</th>
+                    <td>Coccinellidaes</td>
+                    <td>Can eat more than 5,000 insects!</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fruit flies</th>
+                    <td>Drosophilidae</td>
+                    <td>First living creatures in outer space!</td>
+                </tr>
+                <tr>
+                    <th scope="row">Caterpillars</th>
+                    <td>Heterobathmiidae</td>
+                    <td>Have 12 eyes!</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Below the insects</td>
+                    <td>Below the families</td>
+                    <td>Below the facts</td>
+                </tr>
+            </tfoot>
+        </table>
+        <p>
+            Use thead for the table's header, tbody for its body, and tfoot for its footer. Use th for headers (should define its scope as row/col) and td for data.
         </p>
 
         <h2 id="text-emphasis">Text Emphasis</h2>
